@@ -1,0 +1,10 @@
+.banner__titulo{
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    text-align: center;
+    font-size: 100px;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
