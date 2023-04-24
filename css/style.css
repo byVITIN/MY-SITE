@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body{
+    height: 100vh;
+    color: white;
+    background:no-repeat;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 20px 10%;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.nome{
+    font-size: 36px;
+    color: #ededed;
+    font-weight: 600;
+    font-family: 'Bruno Ace SC',cursive;
+    align-items: center;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.4s;
+}
+
+.navbar a:hover{
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+    font-size: 20px ;
+    color: #ededed;
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 20%;
+    backdrop-filter: blur(5px);
+    box-shadow: 2px 2px 2px black;
+}
+
+.home-content{
+    max-width: 650px;
+}
+.home-content h1{
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: floralwhite;
+}
+.home-content h3{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    color: aquamarine;
+}
+
+img{
+    display: flex;
+    height: 500px;
+    width: 500px;
+    padding: 100px
+
+
+
+}
